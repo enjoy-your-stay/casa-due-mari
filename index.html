@@ -18,17 +18,5 @@
     <button onclick="goLang()">Go</button>
   </main>
   <script src="script/script.js"></script>
-  <script>
-    // Detect browser language
-    const supported = ['en', 'it', 'fr', 'de'];
-    const browserLang = navigator.language.slice(0,2);
-    if (supported.includes(browserLang)) {
-      window.location.href = browserLang + '.html';
-    }
-    function goLang() {
-      const lang = document.getElementById('lang-select').value;
-      window.location.href = lang + '.html';
-    }
-  </script>
 </body>
 </html>
