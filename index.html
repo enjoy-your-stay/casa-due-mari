@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>La Casa dei Due Mari – Language Selection</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <main style="max-width: 400px; margin: 80px auto; text-align: center;">
-    <h1>La Casa dei Due Mari</h1>
-    <p>Select your language / Seleziona la lingua / Choisissez la langue / Wählen Sie die Sprache</p>
-    <select id="lang-select">
-      <option value="en">🇬🇧 English</option>
-      <option value="it">🇮🇹 Italiano</option>
-      <option value="fr">🇫🇷 Français</option>
-      <option value="de">🇩🇪 Deutsch</option>
-    </select>
-    <button onclick="goLang()">Go</button>
-  </main>
+  <header>
+    <div class="wave-dots"></div>
+    <div class="header-logo">La Casa dei Due Mari</div>
+    <div class="header-divider"></div>
+    <div class="header-subtitle">Contactless Check-in</div>
+  </header>
+
+    <div class="lang-select-wrap">
+      <select id="lang-select" class="lang-select" onchange="changeLanguage(this.value)">
+        <option value="none">select your language</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="en">🇬🇧 English</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="nl">🇳🇱 Nederlands</option>
+      </select>
+    </div>
   <script src="script/script.js"></script>
 </body>
+<script>
+  function changeLanguage(lang) {
+    window.location.href = `${lang}.html`;
+  }
+
+  // seleziona automaticamente la lingua corrente
+  const currentLang = 'none'
+    // window.location.pathname.split('/').pop().substring(0, 2);
+
+  const select = document.querySelector('.lang-select');
+
+  if (select) {
+    select.value = currentLang;
+  }
+</script>
+
 </html>
