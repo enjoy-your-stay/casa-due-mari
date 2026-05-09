@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Casa dei Due Mari – Check-in</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="wave-dots"></div>
+    <div class="header-logo">La Casa dei Due Mari</div>
+    <div class="header-divider"></div>
+    <div class="header-subtitle">Kontaktloses Check-in</div>
+  </header>
+  <div class="lang-select-wrap">
+    <select class="lang-select" onchange="changeLanguage(this.value)">
+      <option value="it">🇮🇹 Italiano</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="es">🇪🇸 Español</option>
+      <option value="de">🇩🇪 Deutsch</option>
+      <option value="fr">🇫🇷 Français</option>
+      <option value="nl">🇳🇱 Nederlands</option>
+    </select>
+  </div>
+    <!-- MAIN CONTENT -->
+  <main>
+
+    <div class="welcome">
+      Willkommen in <strong>La Casa dei Due Mari</strong>! Wir sind <strong>Lucia und Marco</strong>, Ihre Gastgeber, und freuen uns riesig, Sie hier zu haben. Wir kümmern uns um jeden kleinen Detail, um Ihren Aufenthalt so angenehm wie möglich zu gestalten — wir hoffen, dass die Wohnung Ihre Erwartungen übertrifft.<br><br>
+      Im Folgenden finden Sie alles, was Sie benötigen, um die Wohnung zu betreten. Sie benötigen <strong>zwei Codes</strong>, die wir Ihnen nach einer Nachricht mit Passfotos aller Gäste per WhatsApp an <a href="tel:+393474300269">+39 347 4300269</a> oder <a href="tel:+393471776671">+39 347 1776671</a> zusenden werden.
+    </div>
+
+    <!-- STEP 1 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">1</div>
+        <div class="step-title">Ankunft & Parken</div>
+      </div>
+      <div class="step-body">
+        <p>Wir sind unter <strong>Via Suri 3, San Vito, Taranto</strong> zu finden — <a
+            href="https://maps.google.com/?q=Via+Suri+3+San+Vito+Taranto" target="_blank">in Google Maps öffnen</a>.</p>
+        <p>Bitte parken Sie bei der Ankunft <strong>außerhalb des Haupttors</strong>. Wenn Sie lieber innen parken möchten, nutzen Sie das Tor mit der Beschriftung <strong>ENTRADA</strong> (siehe Foto unten). Die Fernbedienung in der Wohnung öffnet beide Tore: <strong>untere linke Taste</strong> zum Einfahren, <strong>obere linke Taste</strong> zum Ausfahren.</p>
+        <div class="parking-warning">
+          <div class="icon">🅿️</div>
+          <div class="text">
+            <strong>Ihr Parkplatz ist Nummer 8 — und nur Nummer 8.</strong>
+            Die Nummer ist an der Wand auf der Rückseite des Gebäudes markiert. Bitte nutzen Sie keinen anderen Platz, da diese anderen Bewohnern gehören.
+          </div>
+        </div>
+        <div class="photo-block">
+          <img src="img/parking-entrance.jpg" alt="Ein- und Ausfahrtstore"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Ein- und Ausfahrtstore — ENTRATA / USCITA</div>
+        </div>
+        <div class="photo-block">
+          <img src="img/parking-spot.jpg" alt="Parkplatz Nummer 8" onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Parkplatz № 8</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">2</div>
+        <div class="step-title">Fußgängertor öffnen</div>
+      </div>
+      <div class="step-body">
+        <p>Neben der Gegensprechanlage finden Sie ein Tastenfeld. Geben Sie <span class="code-badge">ERSTER CODE + *</span>
+          (Sternchen) ein, um das <strong>Fußgängertor</strong> zu öffnen.</p>
+        <div class="photo-block">
+          <img src="img/gate-keypad.jpg" alt="Tastenfeld beim Fußgängertor"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Tastenfeld am Haupttor — Via Suri 3</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">3</div>
+        <div class="step-title">Betreten des Gebäudes</div>
+      </div>
+      <div class="step-body">
+        <p>Geben Sie <span class="code-badge">ERSTER CODE + *</span> (Sternchen) <strong>erneut</strong> auf dem Tastenfeld
+          an der Eingangstür des Gebäudes ein, um hineinzugehen.</p>
+        <div class="photo-block">
+          <img src="img/building-door.jpg" alt="Tastenfeld an der Gebäudeeingangstür"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Gebäudeeingangstür</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">4</div>
+        <div class="step-title">Schlüssel abholen</div>
+      </div>
+      <div class="step-body">
+        <p>Nehmen Sie den Aufzug (oder die Treppe) in die <strong>dritte Etage</strong>. Unsere Wohnung befindet sich auf der <strong>rechten Seite</strong>, wenn Sie den Aufzug verlassen.</p>
+        <p>Vor der Wohnungstür finden Sie einen <strong>kleinen Schlüsselsafe</strong>. Ziehen Sie seine schwarze Abdeckung nach unten und geben Sie dann <span class="code-badge">ZWEITER CODE + #</span> (Hash/Raute) ein, um ihn zu öffnen und Ihre Schlüssel zu nehmen.</p>
+        <div class="photo-block">
+          <img src="img/key-safe.jpg" alt="Schlüsselsafe vor der Wohnung"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Schlüsselsafe — dritte Etage, rechts des Aufzugs</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-box">
+      <h3>Benötigen Sie Hilfe?</h3>
+      <p>Wir sind immer erreichbar. Zögern Sie nicht, uns per WhatsApp unter <a href="tel:+393474300269">+39 347 4300269</a> oder <a href="tel:+393471776671">+39 347 1776671</a> zu kontaktieren.
+      </p>
+      <p style="margin-top:0.8rem; font-size:1rem; color: rgba(168,200,216,0.7);">Wir wünschen Ihnen einen wunderschönen Aufenthalt.
+        Danke, dass Sie sich für uns entschieden haben! 🌊</p>
+    </div>
+  </main>
+</body>
+
+<script>
+  function changeLanguage(lang) {
+    window.location.href = `${lang}.html`;
+  }
+
+  // seleziona automaticamente la lingua corrente
+  const currentLang =
+    window.location.pathname.split('/').pop().substring(0,2);
+
+  const select = document.querySelector('.lang-select');
+
+  if (select) {
+    select.value = currentLang;
+  }
+</script>
+
+</html>

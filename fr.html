@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Casa dei Due Mari – Check-in</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="wave-dots"></div>
+    <div class="header-logo">La Casa dei Due Mari</div>
+    <div class="header-divider"></div>
+    <div class="header-subtitle">Enregistrement sans Contact</div>
+  </header>
+  <div class="lang-select-wrap">
+    <select class="lang-select" onchange="changeLanguage(this.value)">
+      <option value="it">🇮🇹 Italiano</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="es">🇪🇸 Español</option>
+      <option value="de">🇩🇪 Deutsch</option>
+      <option value="fr">🇫🇷 Français</option>
+      <option value="nl">🇳🇱 Nederlands</option>
+    </select>
+  </div>
+    <!-- MAIN CONTENT -->
+  <main>
+
+    <div class="welcome">
+      Bienvenue à <strong>La Casa dei Due Mari</strong> ! Nous sommes <strong>Lucia et Marco</strong>, vos hôtes, et nous sommes très heureux de vous accueillir ici. Nous nous occupons du moindre détail pour rendre votre séjour aussi agréable que possible — nous espérons que l'appartement dépassera vos attentes.<br><br>
+      Vous trouverez ci-dessous tout ce dont vous avez besoin pour accéder à l'appartement. Vous utiliserez <strong>deux codes</strong>, que nous vous enverrons après que vous ayez partagé les photos de passeport de tous les clients par WhatsApp à <a href="tel:+393474300269">+39 347 4300269</a> ou <a href="tel:+393471776671">+39 347 1776671</a>
+    </div>
+
+    <!-- STEP 1 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">1</div>
+        <div class="step-title">Arrivée & Stationnement</div>
+      </div>
+      <div class="step-body">
+        <p>Nous sommes situés à <strong>Via Suri 3, San Vito, Taranto</strong> — <a
+            href="https://maps.google.com/?q=Via+Suri+3+San+Vito+Taranto" target="_blank">ouvrir dans Google Maps</a>.</p>
+        <p>À votre arrivée, veuillez <strong>vous garer en dehors du portail principal</strong>. Si vous préférez vous garer à l'intérieur, utilisez le portail marqué <strong>ENTRADA</strong> (voir la photo ci-dessous). La télécommande dans l'appartement ouvre les deux portails : <strong>bouton inférieur gauche</strong> pour entrer, <strong>bouton supérieur gauche</strong> pour sortir.</p>
+        <div class="parking-warning">
+          <div class="icon">🅿️</div>
+          <div class="text">
+            <strong>Votre place de stationnement est le numéro 8 — et uniquement le numéro 8.</strong>
+            Le numéro est marqué sur le mur à l'arrière du bâtiment. Veuillez ne pas utiliser d'autre place, car elles appartiennent à d'autres résidents.
+          </div>
+        </div>
+        <div class="photo-block">
+          <img src="img/parking-entrance.jpg" alt="Portails d'entrée et de sortie"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Portails d'entrée / sortie — ENTRATA / USCITA</div>
+        </div>
+        <div class="photo-block">
+          <img src="img/parking-spot.jpg" alt="Place de stationnement numéro 8" onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Place de stationnement № 8</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">2</div>
+        <div class="step-title">Ouverture du Portail Piétonnier</div>
+      </div>
+      <div class="step-body">
+        <p>À côté de l'interphone, vous trouverez un clavier. Entrez le <span class="code-badge">PREMIER CODE + *</span>
+          (astérisque) pour ouvrir le <strong>portail piétonnier</strong>.</p>
+        <div class="photo-block">
+          <img src="img/gate-keypad.jpg" alt="Clavier au portail piétonnier"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Clavier au portail principal — Via Suri 3</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">3</div>
+        <div class="step-title">Entrée dans l'Immeuble</div>
+      </div>
+      <div class="step-body">
+        <p>Utilisez le <span class="code-badge">PREMIER CODE + *</span> (astérisque) <strong>une fois de plus</strong> sur le clavier
+          de la porte d'entrée de l'immeuble pour entrer.</p>
+        <div class="photo-block">
+          <img src="img/building-door.jpg" alt="Clavier de la porte d'entrée de l'immeuble"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Porte d'entrée de l'immeuble</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">4</div>
+        <div class="step-title">Récupération des Clés</div>
+      </div>
+      <div class="step-body">
+        <p>Prenez l'ascenseur (ou les escaliers) jusqu'au <strong>troisième étage</strong>. Notre appartement est situé sur le <strong>côté droit</strong> à la sortie de l'ascenseur.</p>
+        <p>Devant la porte de l'appartement, vous trouverez un <strong>petit coffre-fort pour les clés</strong>. Tirez vers le bas son couvercle noir, puis entrez le <span class="code-badge">DEUXIÈME CODE + #</span> (dièse) pour l'ouvrir et récupérer vos clés.</p>
+        <div class="photo-block">
+          <img src="img/key-safe.jpg" alt="Coffre-fort pour les clés devant l'appartement"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption">Coffre-fort pour les clés — troisième étage, à droite de l'ascenseur</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-box">
+      <h3>Besoin d'aide ?</h3>
+      <p>Nous sommes toujours disponibles. N'hésitez pas à nous contacter par WhatsApp à <a href="tel:+393474300269">+39 347 4300269</a> ou <a href="tel:+393471776671">+39 347 1776671</a>
+      </p>
+      <p style="margin-top:0.8rem; font-size:1rem; color: rgba(168,200,216,0.7);">Nous espérons que vous aurez un séjour merveilleux.
+        Merci de nous avoir choisis ! 🌊</p>
+    </div>
+  </main>
+</body>
+
+<script>
+  function changeLanguage(lang) {
+    window.location.href = `${lang}.html`;
+  }
+
+  // seleziona automaticamente la lingua corrente
+  const currentLang =
+    window.location.pathname.split('/').pop().substring(0,2);
+
+  const select = document.querySelector('.lang-select');
+
+  if (select) {
+    select.value = currentLang;
+  }
+</script>
+
+</html>
