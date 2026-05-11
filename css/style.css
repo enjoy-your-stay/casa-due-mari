@@ -170,7 +170,7 @@ main {
 }
 
 /* ── PARKING WARNING ── */
-.parking-warning {
+.custom-warning {
   background: linear-gradient(135deg, #fff4e0 0%, #fdebd0 100%);
   border: 2px solid var(--accent);
   border-radius: 12px;
@@ -180,17 +180,17 @@ main {
   gap: 0.8rem;
   align-items: flex-start;
 }
-.parking-warning .icon {
+.custom-warning .icon {
   font-size: 1.6rem;
   flex-shrink: 0;
   line-height: 1;
 }
-.parking-warning .text {
+.custom-warning .text {
   font-size: var(--parking-text-fs);
   line-height: 1.7;
   color: #7a4010;
 }
-.parking-warning .text strong {
+.custom-warning .text strong {
   font-weight: 600;
   font-size: 1rem;
   display: block;
@@ -387,17 +387,17 @@ main {
   }
 
   /* WARNING */
-  .parking-warning {
+  .custom-warning {
     padding: 1.2rem;
     gap: 0.8rem;
     margin-top: 1rem;
   }
 
-  .parking-warning .icon {
+  .custom-warning .icon {
     font-size: 1.8rem;
   }
 
-  .parking-warning .text strong {
+  .custom-warning .text strong {
     font-size: 1.15rem;
   }
 
