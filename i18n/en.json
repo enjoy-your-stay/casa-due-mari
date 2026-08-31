@@ -1,0 +1,37 @@
+{
+  "page_title": "La Casa dei Due Mari – Check-in",
+  "header_subtitle": "Contactless Check-in",
+
+  "welcome_html": "Welcome to <strong>La Casa dei Due Mari</strong>! We are <strong>Lucia and Marco</strong>, your hosts, and we're truly happy to have you here. We look after every little detail to make your stay as enjoyable as possible — we hope the apartment exceeds your expectations.<br><br>Below you'll find everything you need to access the apartment. You'll be using <strong>two codes</strong>, which we'll send you after you share passport photos of all guests via WhatsApp to {wa1} or {wa2}",
+
+  "step1_title": "Arrival & Parking",
+  "step1_p1_html": "We are at <strong>{address}</strong> — <a href='{maps}' target='_blank'>open in Google Maps</a>.",
+  "step1_p2_html": "On arrival, please <strong>park outside the main gate</strong>. If you prefer to park inside, use the gate marked <strong>ENTRANCE</strong> (see photo below). The remote control in the apartment opens both gates: <strong>bottom-left button</strong> to enter, <strong>top-left button</strong> to exit.",
+  "warn_parking_html": "<strong>Your parking spot is number 8 — and only number 8.</strong> The number is marked on the wall at the back of the building. Please do not use any other spot, as they belong to other residents.",
+  "cap_parking_entrance": "Entrance / Exit gates — ENTRATA / USCITA",
+  "alt_parking_entrance": "Entrance and Exit gates",
+  "cap_parking_spot": "Parking spot № 8",
+  "alt_parking_spot": "Parking spot number 8",
+
+  "step2_title": "Opening the Pedestrian Gate",
+  "step2_p_html": "Next to the intercom you'll find a keypad. Enter the <span class='code-badge'>FIRST CODE + *</span> (asterisk) to open the <strong>pedestrian gate</strong>.",
+  "cap_gate_keypad": "Keypad at the main gate — Via Suri 3",
+  "alt_gate_keypad": "Keypad at pedestrian gate",
+
+  "step3_title": "Entering the Building",
+  "step3_p_html": "Use the <span class='code-badge'>FIRST CODE + *</span> (asterisk) <strong>once again</strong> on the keypad at the building entrance door to get inside.",
+  "cap_building_door": "Building entrance door",
+  "alt_building_door": "Building entrance door keypad",
+
+  "step4_title": "Retrieving the Keys",
+  "step4_p1_html": "Take the lift (or stairs) to the <strong>third floor</strong>. Our apartment is on the <strong>right-hand side</strong> as you exit the lift.",
+  "step4_p2_html": "Outside the apartment door you'll find a <strong>small key safe</strong>. Pull down its black cover, then enter the <span class='code-badge'>SECOND CODE + #</span> (hashtag) to open it and retrieve your keys.",
+  "cap_key_safe": "Key safe — third floor, right of the lift",
+  "alt_key_safe": "Key safe outside the apartment",
+
+  "warn_litter_html": "<strong>If you are unable to follow the recycling collection schedule, feel free to leave the rubbish on the balcony and we will take care of it.</strong>",
+
+  "contact_title": "Need help?",
+  "contact_p_html": "We're always available. Don't hesitate to reach out via WhatsApp to {wa1} or {wa2}",
+  "contact_footer": "We hope you have a wonderful stay. Thank you for choosing us!"
+}

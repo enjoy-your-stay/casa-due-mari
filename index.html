@@ -1,48 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Casa dei Due Mari – Language Selection</title>
+  <title>La Casa dei Due Mari – Check-in</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <!--
+    PAGINA UNICA per tutte le lingue.
+    Il testo qui sotto è il fallback italiano: script/i18n.js lo sostituisce con la
+    lingua scelta caricando i18n/<lang>.json. Gli elementi con testo tradotto sono
+    marcati con data-i18n="chiave" (contenuto) o data-i18n-alt="chiave" (attributo alt).
+    Non modificare i testi qui: modificarli in i18n/it.json (e nelle altre lingue).
+  -->
+
+  <!-- HEADER -->
   <header>
     <div class="wave-dots"></div>
     <div class="header-logo">La Casa dei Due Mari</div>
     <div class="header-divider"></div>
-    <div class="header-subtitle">Contactless Check-in</div>
+    <div class="header-subtitle" data-i18n="header_subtitle">Check-in senza contatto</div>
   </header>
+  <div class="lang-select-wrap">
+    <select class="lang-select" aria-label="Lingua / Language">
+      <option value="it">🇮🇹 Italiano</option>
+    </select>
+  </div>
 
-    <div class="lang-select-wrap">
-      <select id="lang-select" class="lang-select" onchange="changeLanguage(this.value)">
-        <option value="none">select your language</option>
-        <option value="it">🇮🇹 Italiano</option>
-        <option value="en">🇬🇧 English</option>
-        <option value="es">🇪🇸 Español</option>
-        <option value="de">🇩🇪 Deutsch</option>
-        <option value="fr">🇫🇷 Français</option>
-        <option value="nl">🇳🇱 Nederlands</option>
-      </select>
+  <!-- MAIN CONTENT -->
+  <main hidden>
+
+    <div class="welcome" data-i18n="welcome_html">
+      Benvenuti alla <strong>Casa dei Due Mari</strong>! Siamo <strong>Lucia e Marco</strong>, i vostri ospiti, e
+      siamo felici di avervi qui.
     </div>
-  <script src="script/script.js"></script>
+
+    <!-- STEP 1 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">1</div>
+        <div class="step-title" data-i18n="step1_title">Arrivo e Parcheggio</div>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step1_p1_html">Siamo in <strong>Via Suri 3, San Vito, Taranto</strong>.</p>
+        <p data-i18n="step1_p2_html">All'arrivo potete parcheggiare fuori dal cancello principale.</p>
+        <div class="custom-warning">
+          <div class="icon">🅿️</div>
+          <div class="text" data-i18n="warn_parking_html">
+            <strong>Il vostro posto auto è il numero 8 — e solo il numero 8.</strong>
+          </div>
+        </div>
+        <div class="photo-block">
+          <img src="img/parking-entrance.jpg" alt="Cancello entrata e uscita" data-i18n-alt="alt_parking_entrance"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption" data-i18n="cap_parking_entrance">Cancelli ENTRATA / USCITA</div>
+        </div>
+        <div class="photo-block">
+          <img src="img/parking-spot.jpg" alt="Posto auto numero 8" data-i18n-alt="alt_parking_spot"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption" data-i18n="cap_parking_spot">Posto auto № 8</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">2</div>
+        <div class="step-title" data-i18n="step2_title">Apertura del Cancelletto Pedonale</div>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step2_p_html">Digitate il <span class="code-badge">PRIMO CODICE + *</span> (asterisco) per aprire
+          il <strong>cancelletto pedonale</strong>.</p>
+        <div class="photo-block">
+          <img src="img/gate-keypad.jpg" alt="Tastierino al cancello pedonale" data-i18n-alt="alt_gate_keypad"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption" data-i18n="cap_gate_keypad">Tastierino al cancello principale — Via Suri 3</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">3</div>
+        <div class="step-title" data-i18n="step3_title">Ingresso in Condominio</div>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step3_p_html">Usate di nuovo il <span class="code-badge">PRIMO CODICE + *</span> (asterisco) sul
+          tastierino della porta d'ingresso del condominio.</p>
+        <div class="photo-block">
+          <img src="img/building-door.jpg" alt="Porta d'ingresso del condominio" data-i18n-alt="alt_building_door"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption" data-i18n="cap_building_door">Porta d'ingresso condominio</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="step">
+      <div class="step-header">
+        <div class="step-number">4</div>
+        <div class="step-title" data-i18n="step4_title">Ritiro delle Chiavi</div>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step4_p1_html">Prendete l'ascensore (o le scale) fino al <strong>terzo piano</strong>.</p>
+        <p data-i18n="step4_p2_html">Davanti alla porta troverete una <strong>piccola cassetta di sicurezza</strong>
+          per le chiavi. Digitate il <span class="code-badge">SECONDO CODICE + #</span> (cancelletto) per aprirla.</p>
+        <div class="photo-block">
+          <img src="img/key-safe.jpg" alt="Cassetta chiavi fuori dall'appartamento" data-i18n-alt="alt_key_safe"
+            onerror="this.parentElement.style.display='none'">
+          <div class="photo-caption" data-i18n="cap_key_safe">Cassetta chiavi — terzo piano, destra dell'ascensore</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="custom-warning">
+      <div class="icon">🗑️</div>
+      <div class="text" data-i18n="warn_litter_html">
+        <strong>Se non potete rispettare i giorni della raccolta differenziata, lasciate pure la spazzatura sul
+          balcone, ce ne occuperemo noi.</strong>
+      </div>
+    </div>
+
+    <div class="contact-box">
+      <h3 data-i18n="contact_title">Avete bisogno di aiuto?</h3>
+      <p data-i18n="contact_p_html">Siamo sempre disponibili. Contattateci via WhatsApp.</p>
+      <p style="margin-top:0.8rem; font-size:0.82rem; color: rgba(168,200,216,0.7);" data-i18n="contact_footer">Vi
+        auguriamo un soggiorno meraviglioso. Grazie per aver scelto noi!</p>
+    </div>
+
+  </main>
+
+  <script src="script/config.js"></script>
+  <script src="script/i18n.js"></script>
 </body>
-<script>
-  function changeLanguage(lang) {
-    window.location.href = `${lang}.html`;
-  }
-
-  // seleziona automaticamente la lingua corrente
-  const currentLang = 'none'
-    // window.location.pathname.split('/').pop().substring(0, 2);
-
-  const select = document.querySelector('.lang-select');
-
-  if (select) {
-    select.value = currentLang;
-  }
-</script>
 
 </html>
