@@ -1,0 +1,37 @@
+{
+  "page_title": "La Casa dei Due Mari – Check-in",
+  "header_subtitle": "Check-in sin Contacto",
+
+  "welcome_html": "¡Bienvenido a <strong>La Casa dei Due Mari</strong>! Somos <strong>Lucia y Marco</strong>, sus anfitriones, y estamos muy felices de tenerle aquí. Nos encargamos de cada pequeño detalle para hacer su estancia lo más agradable posible — esperamos que el apartamento supere sus expectativas.<br><br>A continuación encontrará todo lo que necesita para acceder al apartamento. Utilizará <strong>dos códigos</strong>, que le enviaremos después de que comparta fotos de pasaporte de todos los huéspedes por WhatsApp a {wa1} o {wa2}",
+
+  "step1_title": "Llegada & Estacionamiento",
+  "step1_p1_html": "Estamos en <strong>{address}</strong> — <a href='{maps}' target='_blank'>abrir en Google Maps</a>.",
+  "step1_p2_html": "A su llegada, por favor <strong>estacione fuera del portón principal</strong>. Si prefiere estacionar dentro, use el portón marcado como <strong>ENTRADA</strong> (vea la foto abajo). El control remoto en el apartamento abre ambos portones: <strong>botón inferior izquierdo</strong> para entrar, <strong>botón superior izquierdo</strong> para salir.",
+  "warn_parking_html": "<strong>Su espacio de estacionamiento es el número 8 — y solo el número 8.</strong> El número está marcado en la pared al fondo del edificio. Por favor, no use ningún otro espacio, ya que pertenecen a otros residentes.",
+  "cap_parking_entrance": "Portones de entrada / salida — ENTRATA / USCITA",
+  "alt_parking_entrance": "Portones de entrada y salida",
+  "cap_parking_spot": "Espacio de estacionamiento № 8",
+  "alt_parking_spot": "Espacio de estacionamiento número 8",
+
+  "step2_title": "Abrir el Portón Peatonal",
+  "step2_p_html": "Junto al interfón encontrará un teclado. Ingrese el <span class='code-badge'>PRIMER CÓDIGO + *</span> (asterisco) para abrir el <strong>portón peatonal</strong>.",
+  "cap_gate_keypad": "Teclado en el portón principal — Via Suri 3",
+  "alt_gate_keypad": "Teclado en el portón peatonal",
+
+  "step3_title": "Entrar al Edificio",
+  "step3_p_html": "Use el <span class='code-badge'>PRIMER CÓDIGO + *</span> (asterisco) <strong>una vez más</strong> en el teclado de la puerta de entrada del edificio para entrar.",
+  "cap_building_door": "Puerta de entrada del edificio",
+  "alt_building_door": "Teclado de la puerta de entrada del edificio",
+
+  "step4_title": "Recoger las Llaves",
+  "step4_p1_html": "Tome el ascensor (o las escaleras) hasta el <strong>tercer piso</strong>. Nuestro apartamento está en el <strong>lado derecho</strong> al salir del ascensor.",
+  "step4_p2_html": "Fuera de la puerta del apartamento encontrará una <strong>pequeña caja de seguridad para llaves</strong>. Baje su cubierta negra y luego ingrese el <span class='code-badge'>SEGUNDO CÓDIGO + #</span> (numeral) para abrirla y recoger sus llaves.",
+  "cap_key_safe": "Caja de seguridad para llaves — tercer piso, a la derecha del ascensor",
+  "alt_key_safe": "Caja de seguridad para llaves fuera del apartamento",
+
+  "warn_litter_html": "<strong>Si no pueden respetar los días de recogida selectiva, pueden dejar la basura en el balcón y nosotros nos encargaremos de ello.</strong>",
+
+  "contact_title": "¿Necesita ayuda?",
+  "contact_p_html": "Siempre estamos disponibles. No dude en contactarnos por WhatsApp a {wa1} o {wa2}",
+  "contact_footer": "Esperamos que tenga una estancia maravillosa. ¡Gracias por elegir nuestro lugar!"
+}

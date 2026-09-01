@@ -1,0 +1,37 @@
+{
+  "page_title": "La Casa dei Due Mari – Check-in",
+  "header_subtitle": "Kontaktloses Check-in",
+
+  "welcome_html": "Willkommen in <strong>La Casa dei Due Mari</strong>! Wir sind <strong>Lucia und Marco</strong>, Ihre Gastgeber, und freuen uns riesig, Sie hier zu haben. Wir kümmern uns um jedes kleine Detail, um Ihren Aufenthalt so angenehm wie möglich zu gestalten — wir hoffen, dass die Wohnung Ihre Erwartungen übertrifft.<br><br>Im Folgenden finden Sie alles, was Sie benötigen, um die Wohnung zu betreten. Sie benötigen <strong>zwei Codes</strong>, die wir Ihnen nach einer Nachricht mit Passfotos aller Gäste per WhatsApp an {wa1} oder {wa2} zusenden werden.",
+
+  "step1_title": "Ankunft & Parken",
+  "step1_p1_html": "Wir sind unter <strong>{address}</strong> zu finden — <a href='{maps}' target='_blank'>in Google Maps öffnen</a>.",
+  "step1_p2_html": "Bitte parken Sie bei der Ankunft <strong>außerhalb des Haupttors</strong>. Wenn Sie lieber innen parken möchten, nutzen Sie das Tor mit der Beschriftung <strong>ENTRATA</strong> (siehe Foto unten). Die Fernbedienung in der Wohnung öffnet beide Tore: <strong>untere linke Taste</strong> zum Einfahren, <strong>obere linke Taste</strong> zum Ausfahren.",
+  "warn_parking_html": "<strong>Ihr Parkplatz ist Nummer 8 — und nur Nummer 8.</strong> Die Nummer ist an der Wand auf der Rückseite des Gebäudes markiert. Bitte nutzen Sie keinen anderen Platz, da diese anderen Bewohnern gehören.",
+  "cap_parking_entrance": "Ein- und Ausfahrtstore — ENTRATA / USCITA",
+  "alt_parking_entrance": "Ein- und Ausfahrtstore",
+  "cap_parking_spot": "Parkplatz № 8",
+  "alt_parking_spot": "Parkplatz Nummer 8",
+
+  "step2_title": "Fußgängertor öffnen",
+  "step2_p_html": "Neben der Gegensprechanlage finden Sie ein Tastenfeld. Geben Sie <span class='code-badge'>ERSTER CODE + *</span> (Sternchen) ein, um das <strong>Fußgängertor</strong> zu öffnen.",
+  "cap_gate_keypad": "Tastenfeld am Haupttor — Via Suri 3",
+  "alt_gate_keypad": "Tastenfeld beim Fußgängertor",
+
+  "step3_title": "Betreten des Gebäudes",
+  "step3_p_html": "Geben Sie <span class='code-badge'>ERSTER CODE + *</span> (Sternchen) <strong>erneut</strong> auf dem Tastenfeld an der Eingangstür des Gebäudes ein, um hineinzugehen.",
+  "cap_building_door": "Gebäudeeingangstür",
+  "alt_building_door": "Tastenfeld an der Gebäudeeingangstür",
+
+  "step4_title": "Schlüssel abholen",
+  "step4_p1_html": "Nehmen Sie den Aufzug (oder die Treppe) in die <strong>dritte Etage</strong>. Unsere Wohnung befindet sich auf der <strong>rechten Seite</strong>, wenn Sie den Aufzug verlassen.",
+  "step4_p2_html": "Vor der Wohnungstür finden Sie einen <strong>kleinen Schlüsselsafe</strong>. Ziehen Sie seine schwarze Abdeckung nach unten und geben Sie dann <span class='code-badge'>ZWEITER CODE + #</span> (Hash/Raute) ein, um ihn zu öffnen und Ihre Schlüssel zu nehmen.",
+  "cap_key_safe": "Schlüsselsafe — dritte Etage, rechts des Aufzugs",
+  "alt_key_safe": "Schlüsselsafe vor der Wohnung",
+
+  "warn_litter_html": "<strong>Wenn Sie die Tage der Mülltrennung nicht einhalten können, lassen Sie den Müll einfach auf dem Balkon stehen, wir kümmern uns darum.</strong>",
+
+  "contact_title": "Benötigen Sie Hilfe?",
+  "contact_p_html": "Wir sind immer erreichbar. Zögern Sie nicht, uns per WhatsApp unter {wa1} oder {wa2} zu kontaktieren.",
+  "contact_footer": "Wir wünschen Ihnen einen wunderschönen Aufenthalt. Danke, dass Sie sich für uns entschieden haben!"
+}

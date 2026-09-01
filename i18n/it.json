@@ -1,0 +1,37 @@
+{
+  "page_title": "La Casa dei Due Mari – Check-in",
+  "header_subtitle": "Check-in senza contatto",
+
+  "welcome_html": "Benvenuti alla <strong>Casa dei Due Mari</strong>! Siamo <strong>Lucia e Marco</strong>, i vostri ospiti, e siamo felici di avervi qui. Curiamo ogni piccolo dettaglio per rendere il vostro soggiorno il più piacevole possibile — speriamo che l'appartamento superi le vostre aspettative.<br><br>Qui sotto trovate tutto ciò che vi serve per accedere all'appartamento. Avrete bisogno di <strong>due codici</strong>, che vi invieremo dopo aver ricevuto le foto dei passaporti di tutti gli ospiti via WhatsApp a {wa1} oppure a {wa2}",
+
+  "step1_title": "Arrivo e Parcheggio",
+  "step1_p1_html": "Siamo in <strong>{address}</strong> — <a href='{maps}' target='_blank'>apri in Google Maps</a>.",
+  "step1_p2_html": "All'arrivo potete <strong>parcheggiare fuori dal cancello principale</strong>. Se preferite parcheggiare all'interno, usate il cancello contrassegnato come <strong>ENTRATA</strong> (vedi foto). Il telecomando nell'appartamento apre entrambi i cancelli: il <strong>tasto in basso a sinistra</strong> per entrare, il <strong>tasto in alto a sinistra</strong> per uscire.",
+  "warn_parking_html": "<strong>Il vostro posto auto è il numero 8 — e solo il numero 8.</strong> Il numero è segnato sul muro nella stradina sul retro dell'edificio. Vi preghiamo di non usare nessun altro posto, poiché appartengono agli altri residenti.",
+  "cap_parking_entrance": "Cancelli ENTRATA / USCITA",
+  "alt_parking_entrance": "Cancello entrata e uscita",
+  "cap_parking_spot": "Posto auto № 8",
+  "alt_parking_spot": "Posto auto numero 8",
+
+  "step2_title": "Apertura del Cancelletto Pedonale",
+  "step2_p_html": "Accanto al citofono troverete un tastierino. Digitate il <span class='code-badge'>PRIMO CODICE + *</span> (asterisco) per aprire il <strong>cancelletto pedonale</strong>.",
+  "cap_gate_keypad": "Tastierino al cancello principale — Via Suri 3",
+  "alt_gate_keypad": "Tastierino al cancello pedonale",
+
+  "step3_title": "Ingresso in Condominio",
+  "step3_p_html": "Usate di nuovo il <span class='code-badge'>PRIMO CODICE + *</span> (asterisco) sul tastierino della porta d'ingresso del condominio per entrare nell'edificio.",
+  "cap_building_door": "Porta d'ingresso condominio",
+  "alt_building_door": "Porta d'ingresso del condominio",
+
+  "step4_title": "Ritiro delle Chiavi",
+  "step4_p1_html": "Prendete l'ascensore (o le scale) fino al <strong>terzo piano</strong>. Il nostro appartamento è sul <strong>lato destro</strong> uscendo dall'ascensore.",
+  "step4_p2_html": "Davanti alla porta troverete una <strong>piccola cassetta di sicurezza</strong> per le chiavi. Abbassate il coperchio nero, quindi digitate il <span class='code-badge'>SECONDO CODICE + #</span> (cancelletto) per aprirla e ritirare le chiavi.",
+  "cap_key_safe": "Cassetta chiavi — terzo piano, destra dell'ascensore",
+  "alt_key_safe": "Cassetta chiavi fuori dall'appartamento",
+
+  "warn_litter_html": "<strong>Se non potete rispettare i giorni della raccolta differenziata, lasciate pure la spazzatura sul balcone, ce ne occuperemo noi.</strong>",
+
+  "contact_title": "Avete bisogno di aiuto?",
+  "contact_p_html": "Siamo sempre disponibili. Contattateci via WhatsApp a {wa1} oppure a {wa2}",
+  "contact_footer": "Vi auguriamo un soggiorno meraviglioso. Grazie per aver scelto noi!"
+}

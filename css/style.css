@@ -95,6 +95,9 @@ main {
   padding: 2rem 1.2rem 4rem;
 }
 
+/* nascosto finché script/i18n.js non ha applicato la lingua (evita il flash di testo) */
+main[hidden] { display: none; }
+
 /* ── WELCOME BOX ── */
 .welcome {
   background: var(--foam);

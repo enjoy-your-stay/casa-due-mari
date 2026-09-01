@@ -1,0 +1,37 @@
+{
+  "page_title": "La Casa dei Due Mari – Check-in",
+  "header_subtitle": "Contactloze Check-in",
+
+  "welcome_html": "Welkom bij <strong>La Casa dei Due Mari</strong>! We zijn <strong>Lucia en Marco</strong>, uw gastheren, en we zijn erg blij dat u hier bent. We zorgen voor elk klein detail om uw verblijf zo aangenaam mogelijk te maken — we hopen dat het appartement uw verwachtingen overtreft.<br><br>Hieronder vindt u alles wat u nodig hebt om het appartement in te gaan. U gebruikt <strong>twee codes</strong>, die we u sturen nadat u pasfoto's van alle gasten via WhatsApp naar {wa1} of {wa2} hebt gestuurd.",
+
+  "step1_title": "Aankomst & Parkeren",
+  "step1_p1_html": "We bevinden ons op <strong>{address}</strong> — <a href='{maps}' target='_blank'>openen in Google Maps</a>.",
+  "step1_p2_html": "Bij aankomst kunt u alstublieft <strong>buiten het hoofdhek parkeren</strong>. Als u liever binnen parkeert, gebruikt u het hek gemarkeerd als <strong>ENTRATA</strong> (zie foto hieronder). De afstandsbediening in het appartement opent beide hekken: <strong>onderste linker knop</strong> om in te rijden, <strong>bovenste linker knop</strong> om uit te rijden.",
+  "warn_parking_html": "<strong>Uw parkeerplaats is nummer 8 — en alleen nummer 8.</strong> Het nummer is gemarkeerd op de muur aan de achterkant van het gebouw. Gebruik alstublieft geen ander vak, want die behoren tot andere bewoners.",
+  "cap_parking_entrance": "In- en uitrijdhekken — ENTRATA / USCITA",
+  "alt_parking_entrance": "In- en uitrijdhekken",
+  "cap_parking_spot": "Parkeerplaats № 8",
+  "alt_parking_spot": "Parkeerplaats nummer 8",
+
+  "step2_title": "Voetgangershek Openen",
+  "step2_p_html": "Naast de intercom vindt u een toetsenbord. Voer de <span class='code-badge'>EERSTE CODE + *</span> (sterretje) in om het <strong>voetgangershek</strong> te openen.",
+  "cap_gate_keypad": "Toetsenbord bij het hoofdhek — Via Suri 3",
+  "alt_gate_keypad": "Toetsenbord bij voetgangershek",
+
+  "step3_title": "Het Gebouw Betreden",
+  "step3_p_html": "Gebruik de <span class='code-badge'>EERSTE CODE + *</span> (sterretje) <strong>nogmaals</strong> op het toetsenbord bij de ingang van het gebouw om naar binnen te gaan.",
+  "cap_building_door": "Ingang gebouw",
+  "alt_building_door": "Toetsenbord bij ingang gebouw",
+
+  "step4_title": "Sleutels Ophalen",
+  "step4_p1_html": "Neem de lift (of trap) naar de <strong>derde verdieping</strong>. Ons appartement bevindt zich aan de <strong>rechterkant</strong> als u uit de lift stapt.",
+  "step4_p2_html": "Voor de deur van het appartement vindt u een <strong>kleine sleutelkluis</strong>. Trek het zwarte deksel naar beneden en voer vervolgens de <span class='code-badge'>TWEEDE CODE + #</span> (hekje) in om deze te openen en uw sleutels op te halen.",
+  "cap_key_safe": "Sleutelkluis — derde verdieping, rechts van de lift",
+  "alt_key_safe": "Sleutelkluis voor het appartement",
+
+  "warn_litter_html": "<strong>Als u de dagen voor afvalscheiding niet kunt naleven, kunt u het afval gerust op het balkon laten staan, wij zorgen ervoor.</strong>",
+
+  "contact_title": "Hulp nodig?",
+  "contact_p_html": "We zijn altijd beschikbaar. Aarzel niet om ons via WhatsApp te contacteren op {wa1} of {wa2}",
+  "contact_footer": "We hopen dat u een heerlijk verblijf hebt. Bedankt dat u voor ons gekozen hebt!"
+}
