@@ -71,6 +71,13 @@
       url.searchParams.set('lang', lang);
       window.location.href = url.toString();
     });
+    // Tornando indietro (tasto "back") la pagina può essere ripristinata dalla
+    // bfcache: il browser reimposta il <select> sull'ultima scelta dell'utente,
+    // ma il contenuto è quello della lingua originale. Risincronizziamo il menu
+    // con la lingua effettivamente mostrata.
+    window.addEventListener('pageshow', function (e) {
+      if (e.persisted) select.value = document.documentElement.lang || current;
+    });
   }
 
   function apply(dict) {
