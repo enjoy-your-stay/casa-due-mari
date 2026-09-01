@@ -1,0 +1,37 @@
+{
+  "page_title": "La Casa dei Due Mari – Check-in",
+  "header_subtitle": "Bezkontaktna Prijava",
+
+  "welcome_html": "Dobrodošli u <strong>La Casa dei Due Mari</strong>! Mi smo <strong>Lucia i Marco</strong>, vaši domaćini, i veoma nam je drago što ste ovde. Vodimo računa o svakom detalju kako bismo vaš boravak učinili što prijatnijim — nadamo se da će stan prevazići vaša očekivanja.<br><br>Ispod se nalazi sve što vam je potrebno da uđete u stan. Trebaće vam <strong>dva koda</strong>, koja ćemo vam poslati nakon što primimo fotografije pasoša svih gostiju putem WhatsApp-a na {wa1} ili {wa2}",
+
+  "step1_title": "Dolazak i Parking",
+  "step1_p1_html": "Nalazimo se na adresi <strong>{address}</strong> — <a href='{maps}' target='_blank'>otvori u Google Mapama</a>.",
+  "step1_p2_html": "Po dolasku možete <strong>parkirati ispred glavne kapije</strong>. Ako želite da parkirate unutra, koristite kapiju označenu sa <strong>ENTRATA</strong> (pogledajte fotografiju). Daljinski upravljač u stanu otvara obe kapije: <strong>donje levo dugme</strong> za ulazak, <strong>gornje levo dugme</strong> za izlazak.",
+  "warn_parking_html": "<strong>Vaše parking mesto je broj 8 — i samo broj 8.</strong> Broj je označen na zidu u uličici iza zgrade. Molimo vas da ne koristite nijedno drugo mesto, jer pripadaju ostalim stanarima.",
+  "cap_parking_entrance": "Kapije za ULAZ / IZLAZ — ENTRATA / USCITA",
+  "alt_parking_entrance": "Kapije za ulaz i izlaz",
+  "cap_parking_spot": "Parking mesto № 8",
+  "alt_parking_spot": "Parking mesto broj 8",
+
+  "step2_title": "Otvaranje Pešačke Kapije",
+  "step2_p_html": "Pored interfona naći ćete tastaturu. Ukucajte <span class='code-badge'>PRVI KOD + *</span> (zvezdica) da otvorite <strong>pešačku kapiju</strong>.",
+  "cap_gate_keypad": "Tastatura na glavnoj kapiji — Via Suri 3",
+  "alt_gate_keypad": "Tastatura na pešačkoj kapiji",
+
+  "step3_title": "Ulazak u Zgradu",
+  "step3_p_html": "Ponovo upotrebite <span class='code-badge'>PRVI KOD + *</span> (zvezdica) na tastaturi ulaznih vrata zgrade da biste ušli.",
+  "cap_building_door": "Ulazna vrata zgrade",
+  "alt_building_door": "Ulazna vrata zgrade",
+
+  "step4_title": "Preuzimanje Ključeva",
+  "step4_p1_html": "Liftom (ili stepenicama) se popnite na <strong>treći sprat</strong>. Naš stan je sa <strong>desne strane</strong> kada izađete iz lifta.",
+  "step4_p2_html": "Ispred vrata naći ćete <strong>mali sef</strong> za ključeve. Spustite crni poklopac, a zatim ukucajte <span class='code-badge'>DRUGI KOD + #</span> (taraba) da ga otvorite i preuzmete ključeve.",
+  "cap_key_safe": "Sef za ključeve — treći sprat, desno od lifta",
+  "alt_key_safe": "Sef za ključeve ispred stana",
+
+  "warn_litter_html": "<strong>Ako ne možete da ispoštujete dane za reciklažu, slobodno ostavite smeće na balkonu, mi ćemo se za to pobrinuti.</strong>",
+
+  "contact_title": "Potrebna vam je pomoć?",
+  "contact_p_html": "Uvek smo dostupni. Kontaktirajte nas putem WhatsApp-a na {wa1} ili {wa2}",
+  "contact_footer": "Želimo vam predivan boravak. Hvala što ste izabrali nas!"
+}
