@@ -1,7 +1,7 @@
 /*
  * Loader i18n — vanilla JS, zero dipendenze.
  *
- * - Sceglie la lingua: ?lang=xx  ->  localStorage  ->  lingua del browser  ->  'it'
+ * - Sceglie la lingua: ?lang=xx  ->  localStorage  ->  lingua del browser  ->  'en'
  * - Carica l'elenco lingue da  i18n/languages.json  e popola il menu a tendina
  * - Carica i testi da  i18n/<lang>.json  e li inietta negli elementi [data-i18n]
  * - Se qualcosa fallisce, resta il testo italiano già presente nell'HTML
@@ -11,25 +11,17 @@
 (function () {
   'use strict';
 
-  var FALLBACK = 'it';
+  var FALLBACK = 'en';
   var cfg = window.SITE_CONFIG || {};
-
-  function fmtPhone(intl) {
-    // "+393474300269" -> "+39 347 4300269"
-    var rest = intl.replace(/^\+39/, '');
-    return '+39 ' + rest.slice(0, 3) + ' ' + rest.slice(3);
-  }
 
   // Token condivisi disponibili in tutte le stringhe di traduzione
   var TOKENS = {
-    '{wa1}': '<a href="https://wa.me/' + (cfg.wa1 || '') + '">' + fmtPhone(cfg.wa1 || '') + '</a>',
-    '{wa2}': '<a href="https://wa.me/' + (cfg.wa2 || '') + '">' + fmtPhone(cfg.wa2 || '') + '</a>',
     '{maps}': cfg.mapsUrl || '',
     '{address}': cfg.address || '',
   };
 
   function expand(str) {
-    return String(str).replace(/\{wa1\}|\{wa2\}|\{maps\}|\{address\}/g, function (m) {
+    return String(str).replace(/\{maps\}|\{address\}/g, function (m) {
       return TOKENS[m] != null ? TOKENS[m] : m;
     });
   }
@@ -39,6 +31,7 @@
     var stored;
     try { stored = localStorage.getItem('lang'); } catch (e) { stored = null; }
     var browser = (navigator.language || '').slice(0, 2).toLowerCase();
+    if (browser === 'nb' || browser === 'nn') browser = 'no';
     var candidates = [qs, stored, browser, FALLBACK];
     for (var i = 0; i < candidates.length; i++) {
       if (candidates[i] && available.indexOf(candidates[i]) !== -1) return candidates[i];

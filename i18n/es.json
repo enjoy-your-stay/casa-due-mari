@@ -2,7 +2,7 @@
   "page_title": "La Casa dei Due Mari – Check-in",
   "header_subtitle": "Check-in sin Contacto",
 
-  "welcome_html": "¡Bienvenido a <strong>La Casa dei Due Mari</strong>! Somos <strong>Lucia y Marco</strong>, sus anfitriones, y estamos muy felices de tenerle aquí. Nos encargamos de cada pequeño detalle para hacer su estancia lo más agradable posible — esperamos que el apartamento supere sus expectativas.<br><br>A continuación encontrará todo lo que necesita para acceder al apartamento. Utilizará <strong>dos códigos</strong>, que le enviaremos después de que comparta fotos de pasaporte de todos los huéspedes por WhatsApp a {wa1} o {wa2}",
+  "welcome_html": "¡Bienvenido a <strong>La Casa dei Due Mari</strong>! Somos <strong>Lucia y Marco</strong>, sus anfitriones, y estamos muy felices de tenerle aquí. Nos encargamos de cada pequeño detalle para hacer su estancia lo más agradable posible — esperamos que el apartamento supere sus expectativas.<br><br>A continuación encontrará todo lo que necesita para acceder al apartamento. Utilizará <strong>dos códigos</strong>, que le enviaremos después de que comparta fotos de pasaporte de todos los huéspedes por WhatsApp.",
 
   "step1_title": "Llegada & Estacionamiento",
   "step1_p1_html": "Estamos en <strong>{address}</strong> — <a href='{maps}' target='_blank'>abrir en Google Maps</a>.",
@@ -32,6 +32,6 @@
   "warn_litter_html": "<strong>Si no pueden respetar los días de recogida selectiva, pueden dejar la basura en el balcón y nosotros nos encargaremos de ello.</strong>",
 
   "contact_title": "¿Necesita ayuda?",
-  "contact_p_html": "Siempre estamos disponibles. No dude en contactarnos por WhatsApp a {wa1} o {wa2}",
+  "contact_p_html": "Siempre estamos disponibles. No dude en contactarnos por WhatsApp.",
   "contact_footer": "Esperamos que tenga una estancia maravillosa. ¡Gracias por elegir nuestro lugar!"
 }
