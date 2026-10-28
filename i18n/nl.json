@@ -2,7 +2,7 @@
   "page_title": "La Casa dei Due Mari – Check-in",
   "header_subtitle": "Contactloze Check-in",
 
-  "welcome_html": "Welkom bij <strong>La Casa dei Due Mari</strong>! We zijn <strong>Lucia en Marco</strong>, uw gastheren, en we zijn erg blij dat u hier bent. We zorgen voor elk klein detail om uw verblijf zo aangenaam mogelijk te maken — we hopen dat het appartement uw verwachtingen overtreft.<br><br>Hieronder vindt u alles wat u nodig hebt om het appartement in te gaan. U gebruikt <strong>twee codes</strong>, die we u sturen nadat u pasfoto's van alle gasten via WhatsApp naar {wa1} of {wa2} hebt gestuurd.",
+  "welcome_html": "Welkom bij <strong>La Casa dei Due Mari</strong>! We zijn <strong>Lucia en Marco</strong>, uw gastheren, en we zijn erg blij dat u hier bent. We zorgen voor elk klein detail om uw verblijf zo aangenaam mogelijk te maken — we hopen dat het appartement uw verwachtingen overtreft.<br><br>Hieronder vindt u alles wat u nodig hebt om het appartement in te gaan. U gebruikt <strong>twee codes</strong>, die we u sturen nadat u pasfoto's van alle gasten via WhatsApp hebt gestuurd.",
 
   "step1_title": "Aankomst & Parkeren",
   "step1_p1_html": "We bevinden ons op <strong>{address}</strong> — <a href='{maps}' target='_blank'>openen in Google Maps</a>.",
@@ -32,6 +32,6 @@
   "warn_litter_html": "<strong>Als u de dagen voor afvalscheiding niet kunt naleven, kunt u het afval gerust op het balkon laten staan, wij zorgen ervoor.</strong>",
 
   "contact_title": "Hulp nodig?",
-  "contact_p_html": "We zijn altijd beschikbaar. Aarzel niet om ons via WhatsApp te contacteren op {wa1} of {wa2}",
+  "contact_p_html": "We zijn altijd beschikbaar. Aarzel niet om ons via WhatsApp te contacteren.",
   "contact_footer": "We hopen dat u een heerlijk verblijf hebt. Bedankt dat u voor ons gekozen hebt!"
 }

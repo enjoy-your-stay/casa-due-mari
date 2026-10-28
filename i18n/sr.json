@@ -2,7 +2,7 @@
   "page_title": "La Casa dei Due Mari – Check-in",
   "header_subtitle": "Bezkontaktna Prijava",
 
-  "welcome_html": "Dobrodošli u <strong>La Casa dei Due Mari</strong>! Mi smo <strong>Lucia i Marco</strong>, vaši domaćini, i veoma nam je drago što ste ovde. Vodimo računa o svakom detalju kako bismo vaš boravak učinili što prijatnijim — nadamo se da će stan prevazići vaša očekivanja.<br><br>Ispod se nalazi sve što vam je potrebno da uđete u stan. Trebaće vam <strong>dva koda</strong>, koja ćemo vam poslati nakon što primimo fotografije pasoša svih gostiju putem WhatsApp-a na {wa1} ili {wa2}",
+  "welcome_html": "Dobrodošli u <strong>La Casa dei Due Mari</strong>! Mi smo <strong>Lucia i Marco</strong>, vaši domaćini, i veoma nam je drago što ste ovde. Vodimo računa o svakom detalju kako bismo vaš boravak učinili što prijatnijim — nadamo se da će stan prevazići vaša očekivanja.<br><br>Ispod se nalazi sve što vam je potrebno da uđete u stan. Trebaće vam <strong>dva koda</strong>, koja ćemo vam poslati nakon što primimo fotografije pasoša svih gostiju putem WhatsApp-a.",
 
   "step1_title": "Dolazak i Parking",
   "step1_p1_html": "Nalazimo se na adresi <strong>{address}</strong> — <a href='{maps}' target='_blank'>otvori u Google Mapama</a>.",
@@ -32,6 +32,6 @@
   "warn_litter_html": "<strong>Ako ne možete da ispoštujete dane za reciklažu, slobodno ostavite smeće na balkonu, mi ćemo se za to pobrinuti.</strong>",
 
   "contact_title": "Potrebna vam je pomoć?",
-  "contact_p_html": "Uvek smo dostupni. Kontaktirajte nas putem WhatsApp-a na {wa1} ili {wa2}",
+  "contact_p_html": "Uvek smo dostupni. Kontaktirajte nas putem WhatsApp-a.",
   "contact_footer": "Želimo vam predivan boravak. Hvala što ste izabrali nas!"
 }
