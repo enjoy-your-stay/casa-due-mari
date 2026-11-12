@@ -11,7 +11,7 @@ mkdirSync(OUT, { recursive: true });
 
 const langs = process.argv.slice(2).length
   ? process.argv.slice(2)
-  : JSON.parse(readFileSync(new URL('../i18n/languages.json', import.meta.url))).map(l => l.code);
+  : JSON.parse(readFileSync(new URL('../instructions/i18n/languages.json', import.meta.url))).map(l => l.code);
 
 const viewports = [
   { name: 'mobile', width: 390, height: 844 },
@@ -26,7 +26,7 @@ for (const vp of viewports) {
     const errors = [];
     page.on('pageerror', e => errors.push(String(e)));
     page.on('console', m => m.type() === 'error' && errors.push(m.text()));
-    await page.goto(`${BASE}/?lang=${lang}`, { waitUntil: 'networkidle' });
+    await page.goto(`${BASE}/instructions/?lang=${lang}`, { waitUntil: 'networkidle' });
     await page.waitForSelector('main:not([hidden])', { timeout: 5000 });
     const file = `${OUT}${lang}-${vp.name}.png`;
     await page.screenshot({ path: file, fullPage: true });
