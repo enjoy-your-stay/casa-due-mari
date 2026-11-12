@@ -5,123 +5,205 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0b5f8f">
-  <title>La Casa dei Due Mari – Check-in</title>
+
+  <title>La Casa dei Due Mari – Appartamento vicino al mare a San Vito, Taranto</title>
+  <meta name="description" content="Appartamento con balcone e posto auto privato a San Vito, Taranto, vicino al mare. Camera matrimoniale, camera con due letti, due bagni. Self check-in.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://enjoy-your-stay.github.io/casa-due-mari/">
+
+  <!-- Anteprima quando il link viene condiviso (WhatsApp, Facebook, ...) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="La Casa dei Due Mari">
+  <meta property="og:title" content="La Casa dei Due Mari – Appartamento vicino al mare a San Vito, Taranto">
+  <meta property="og:description" content="Appartamento con balcone e posto auto privato a San Vito, Taranto, vicino al mare. Camera matrimoniale, camera con due letti, due bagni. Self check-in.">
+  <meta property="og:url" content="https://enjoy-your-stay.github.io/casa-due-mari/">
+  <meta property="og:image" content="https://enjoy-your-stay.github.io/casa-due-mari/assets/img/foto/01-soggiorno.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+
+  <!-- Dati strutturati: aiutano Google a capire che è un alloggio e dove si trova -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VacationRental",
+    "name": "La Casa dei Due Mari",
+    "description": "Appartamento a San Vito, Taranto, gestito da Lucia e Marco: vicino al mare, con balcone, posto auto privato, camera matrimoniale, camera con due letti singoli e due bagni.",
+    "url": "https://enjoy-your-stay.github.io/casa-due-mari/",
+    "image": "https://enjoy-your-stay.github.io/casa-due-mari/assets/img/foto/01-soggiorno.jpg",
+    "telephone": "+39 347 177 6671",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Suri 3",
+      "addressLocality": "Taranto",
+      "addressRegion": "TA",
+      "addressCountry": "IT"
+    }
+  }
+  </script>
 </head>
 
 <body>
-  <!--
-    PAGINA UNICA per tutte le lingue.
-    Il testo qui sotto è il fallback italiano: script/i18n.js lo sostituisce con la
-    lingua scelta caricando i18n/<lang>.json. Gli elementi con testo tradotto sono
-    marcati con data-i18n="chiave" (contenuto) o data-i18n-alt="chiave" (attributo alt).
-    Non modificare i testi qui: modificarli in i18n/it.json (e nelle altre lingue).
-  -->
 
-  <div class="lang-select-wrap">
-    <select class="lang-select" aria-label="Lingua / Language">
-      <option value="it">🇮🇹 Italiano</option>
-    </select>
-  </div>
-
-  <header>
-    <img class="logo" src="img/logo.jpg" alt="La Casa dei Due Mari" width="680" height="745">
-    <div class="header-subtitle" data-i18n="header_subtitle">Check-in senza contatto</div>
+  <header class="hero">
+    <div class="hero-inner">
+      <!-- Il titolo è il logo stesso: per Google e per i lettori di schermo vale il testo alternativo -->
+      <h1><img class="hero-logo" src="assets/img/logo.jpg" alt="La Casa dei Due Mari" width="680" height="745"></h1>
+      <p class="hero-tagline">Il vostro appartamento vicino al mare, a San Vito – Taranto</p>
+      <div class="hero-actions">
+        <a class="btn btn-wa" href="https://wa.me/393471776671" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3c-.2.3-1 1-1 2.3s1 2.7 1.2 2.9c.1.2 2 3 4.8 4.2 1.8.8 2.5.8 3.4.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg>Scrivici su WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+393471776671"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>Chiama 347 177 6671</a>
+      </div>
+    </div>
   </header>
 
-  <main hidden>
+  <main>
 
-    <p class="welcome" data-i18n="welcome_html">Benvenuti alla <strong>Casa dei Due Mari</strong>! Siamo <strong>Lucia e Marco</strong>, i vostri ospiti, e siamo felici di avervi qui. Curiamo ogni piccolo dettaglio per rendere il vostro soggiorno il più piacevole possibile — speriamo che l'appartamento superi le vostre aspettative.<br><br>Qui sotto trovate tutto ciò che vi serve per accedere all'appartamento. Avrete bisogno di <strong>due codici</strong>, che vi invieremo dopo aver ricevuto le foto dei passaporti di tutti gli ospiti via WhatsApp.</p>
+    <section class="section" id="foto" aria-labelledby="foto-title">
+      <h2 id="foto-title">Le foto</h2>
+      <p class="section-lead">Toccate una foto per ingrandirla e sfogliarle tutte.</p>
 
-    <section class="step">
-      <div class="step-header">
-        <div class="step-number">1</div>
-        <h2 class="step-title" data-i18n="step1_title">Arrivo e Parcheggio</h2>
-      </div>
-      <div class="step-body">
-        <p data-i18n="step1_p1_html">Siamo in <strong>Via Suri 3, San Vito, Taranto</strong> — <a href='https://maps.google.com/?q=Via+Suri+3+San+Vito+Taranto' target='_blank'>apri in Google Maps</a>.</p>
-        <p data-i18n="step1_p2_html">All'arrivo potete <strong>parcheggiare fuori dal cancello principale</strong>. Se preferite parcheggiare all'interno, usate il cancello contrassegnato come <strong>ENTRATA</strong> (vedi foto). Il telecomando nell'appartamento apre entrambi i cancelli: il <strong>tasto in basso a sinistra</strong> per entrare, il <strong>tasto in alto a sinistra</strong> per uscire.</p>
-        <div class="callout">
-          <div class="icon">🅿️</div>
-          <div class="text" data-i18n="warn_parking_html"><strong>Il vostro posto auto è il numero 8 — e solo il numero 8.</strong> Il numero è segnato sul muro nella stradina sul retro dell'edificio. Vi preghiamo di non usare nessun altro posto, poiché appartengono agli altri residenti.</div>
-        </div>
-        <figure class="photo-block">
-          <img src="img/parking-entrance.jpg" alt="Cancello entrata e uscita" data-i18n-alt="alt_parking_entrance"
-            loading="lazy" onerror="this.parentElement.style.display='none'">
-          <figcaption data-i18n="cap_parking_entrance">Cancelli ENTRATA / USCITA</figcaption>
-        </figure>
-        <figure class="photo-block">
-          <img src="img/parking-spot.jpg" alt="Posto auto numero 8" data-i18n-alt="alt_parking_spot" loading="lazy"
-            onerror="this.parentElement.style.display='none'">
-          <figcaption data-i18n="cap_parking_spot">Posto auto № 8</figcaption>
-        </figure>
+      <!--
+        GALLERIA. Ogni foto è un <a> verso l'immagine grande con dentro la miniatura;
+        assets/js/gallery.js la trasforma in un nastro che scorre da solo.
+        Il blocco tra GALLERY:START e GALLERY:END viene rigenerato da
+        tools/prepare_photos.py: per aggiungere foto usate lo script.
+      -->
+      <div class="carousel">
+      <ul class="gallery">
+        <!-- GALLERY:START -->
+        <li><a href="assets/img/foto/01-soggiorno.jpg" data-caption="Soggiorno"><img src="assets/img/foto/thumb/01-soggiorno.jpg" srcset="assets/img/foto/thumb/01-soggiorno.jpg 640w, assets/img/foto/01-soggiorno.jpg 1024w" sizes="50vw" alt="Soggiorno" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/02-soggiorno-con-divano.jpg" data-caption="Soggiorno con divano"><img src="assets/img/foto/thumb/02-soggiorno-con-divano.jpg" srcset="assets/img/foto/thumb/02-soggiorno-con-divano.jpg 640w, assets/img/foto/02-soggiorno-con-divano.jpg 1024w" sizes="50vw" alt="Soggiorno con divano" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/03-soggiorno-con-tv.jpg" data-caption="Soggiorno con TV"><img src="assets/img/foto/thumb/03-soggiorno-con-tv.jpg" srcset="assets/img/foto/thumb/03-soggiorno-con-tv.jpg 640w, assets/img/foto/03-soggiorno-con-tv.jpg 1024w" sizes="50vw" alt="Soggiorno con TV" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/04-parete-attrezzata.jpg" data-caption="Parete attrezzata"><img src="assets/img/foto/thumb/04-parete-attrezzata.jpg" srcset="assets/img/foto/thumb/04-parete-attrezzata.jpg 640w, assets/img/foto/04-parete-attrezzata.jpg 1024w" sizes="50vw" alt="Parete attrezzata" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/05-soggiorno-luminoso.jpg" data-caption="Soggiorno luminoso"><img src="assets/img/foto/thumb/05-soggiorno-luminoso.jpg" srcset="assets/img/foto/thumb/05-soggiorno-luminoso.jpg 640w, assets/img/foto/05-soggiorno-luminoso.jpg 1024w" sizes="50vw" alt="Soggiorno luminoso" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/06-zona-pranzo.jpg" data-caption="Zona pranzo"><img src="assets/img/foto/thumb/06-zona-pranzo.jpg" srcset="assets/img/foto/thumb/06-zona-pranzo.jpg 640w, assets/img/foto/06-zona-pranzo.jpg 1024w" sizes="50vw" alt="Zona pranzo" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/07-cucina.jpg" data-caption="Cucina"><img src="assets/img/foto/thumb/07-cucina.jpg" srcset="assets/img/foto/thumb/07-cucina.jpg 640w, assets/img/foto/07-cucina.jpg 1024w" sizes="50vw" alt="Cucina" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/08-tavolo-per-la-colazione.jpg" data-caption="Tavolo per la colazione"><img src="assets/img/foto/thumb/08-tavolo-per-la-colazione.jpg" srcset="assets/img/foto/thumb/08-tavolo-per-la-colazione.jpg 480w, assets/img/foto/08-tavolo-per-la-colazione.jpg 576w" sizes="50vw" alt="Tavolo per la colazione" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/09-macchina-del-caffe.jpg" data-caption="Macchina del caffè"><img src="assets/img/foto/thumb/09-macchina-del-caffe.jpg" srcset="assets/img/foto/thumb/09-macchina-del-caffe.jpg 640w, assets/img/foto/09-macchina-del-caffe.jpg 1024w" sizes="50vw" alt="Macchina del caffè" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/10-un-piccolo-benvenuto.jpg" data-caption="Un piccolo benvenuto"><img src="assets/img/foto/thumb/10-un-piccolo-benvenuto.jpg" srcset="assets/img/foto/thumb/10-un-piccolo-benvenuto.jpg 480w, assets/img/foto/10-un-piccolo-benvenuto.jpg 576w" sizes="50vw" alt="Un piccolo benvenuto" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/11-camera-matrimoniale.jpg" data-caption="Camera matrimoniale"><img src="assets/img/foto/thumb/11-camera-matrimoniale.jpg" srcset="assets/img/foto/thumb/11-camera-matrimoniale.jpg 640w, assets/img/foto/11-camera-matrimoniale.jpg 1024w" sizes="50vw" alt="Camera matrimoniale" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/12-camera-matrimoniale-con-armadio.jpg" data-caption="Camera matrimoniale con armadio"><img src="assets/img/foto/thumb/12-camera-matrimoniale-con-armadio.jpg" srcset="assets/img/foto/thumb/12-camera-matrimoniale-con-armadio.jpg 640w, assets/img/foto/12-camera-matrimoniale-con-armadio.jpg 1024w" sizes="50vw" alt="Camera matrimoniale con armadio" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/13-camera-matrimoniale-con-cassettiera.jpg" data-caption="Camera matrimoniale con cassettiera"><img src="assets/img/foto/thumb/13-camera-matrimoniale-con-cassettiera.jpg" srcset="assets/img/foto/thumb/13-camera-matrimoniale-con-cassettiera.jpg 640w, assets/img/foto/13-camera-matrimoniale-con-cassettiera.jpg 1024w" sizes="50vw" alt="Camera matrimoniale con cassettiera" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/14-camera-con-due-letti-singoli.jpg" data-caption="Camera con due letti singoli"><img src="assets/img/foto/thumb/14-camera-con-due-letti-singoli.jpg" srcset="assets/img/foto/thumb/14-camera-con-due-letti-singoli.jpg 640w, assets/img/foto/14-camera-con-due-letti-singoli.jpg 1024w" sizes="50vw" alt="Camera con due letti singoli" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/15-camera-con-due-letti-e-balcone.jpg" data-caption="Camera con due letti e balcone"><img src="assets/img/foto/thumb/15-camera-con-due-letti-e-balcone.jpg" srcset="assets/img/foto/thumb/15-camera-con-due-letti-e-balcone.jpg 480w, assets/img/foto/15-camera-con-due-letti-e-balcone.jpg 576w" sizes="50vw" alt="Camera con due letti e balcone" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/16-bagno-con-vasca.jpg" data-caption="Bagno con vasca"><img src="assets/img/foto/thumb/16-bagno-con-vasca.jpg" srcset="assets/img/foto/thumb/16-bagno-con-vasca.jpg 480w, assets/img/foto/16-bagno-con-vasca.jpg 576w" sizes="50vw" alt="Bagno con vasca" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/17-bagno-con-finestra.jpg" data-caption="Bagno con finestra"><img src="assets/img/foto/thumb/17-bagno-con-finestra.jpg" srcset="assets/img/foto/thumb/17-bagno-con-finestra.jpg 480w, assets/img/foto/17-bagno-con-finestra.jpg 576w" sizes="50vw" alt="Bagno con finestra" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/18-secondo-bagno-con-doccia.jpg" data-caption="Secondo bagno con doccia"><img src="assets/img/foto/thumb/18-secondo-bagno-con-doccia.jpg" srcset="assets/img/foto/thumb/18-secondo-bagno-con-doccia.jpg 360w, assets/img/foto/18-secondo-bagno-con-doccia.jpg 432w" sizes="50vw" alt="Secondo bagno con doccia" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/19-doccia.jpg" data-caption="Doccia"><img src="assets/img/foto/thumb/19-doccia.jpg" srcset="assets/img/foto/thumb/19-doccia.jpg 360w, assets/img/foto/19-doccia.jpg 432w" sizes="50vw" alt="Doccia" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/20-balcone-con-tavolo.jpg" data-caption="Balcone con tavolo"><img src="assets/img/foto/thumb/20-balcone-con-tavolo.jpg" srcset="assets/img/foto/thumb/20-balcone-con-tavolo.jpg 640w, assets/img/foto/20-balcone-con-tavolo.jpg 1024w" sizes="50vw" alt="Balcone con tavolo" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/21-balcone.jpg" data-caption="Balcone"><img src="assets/img/foto/thumb/21-balcone.jpg" srcset="assets/img/foto/thumb/21-balcone.jpg 640w, assets/img/foto/21-balcone.jpg 1024w" sizes="50vw" alt="Balcone" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/22-vista-dal-balcone.jpg" data-caption="Vista dal balcone"><img src="assets/img/foto/thumb/22-vista-dal-balcone.jpg" srcset="assets/img/foto/thumb/22-vista-dal-balcone.jpg 640w, assets/img/foto/22-vista-dal-balcone.jpg 1024w" sizes="50vw" alt="Vista dal balcone" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/23-vista-sul-quartiere.jpg" data-caption="Vista sul quartiere"><img src="assets/img/foto/thumb/23-vista-sul-quartiere.jpg" srcset="assets/img/foto/thumb/23-vista-sul-quartiere.jpg 640w, assets/img/foto/23-vista-sul-quartiere.jpg 1024w" sizes="50vw" alt="Vista sul quartiere" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/24-il-palazzo.jpg" data-caption="Il palazzo"><img src="assets/img/foto/thumb/24-il-palazzo.jpg" srcset="assets/img/foto/thumb/24-il-palazzo.jpg 360w, assets/img/foto/24-il-palazzo.jpg 432w" sizes="50vw" alt="Il palazzo" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/25-cancello-di-ingresso.jpg" data-caption="Cancello di ingresso"><img src="assets/img/foto/thumb/25-cancello-di-ingresso.jpg" srcset="assets/img/foto/thumb/25-cancello-di-ingresso.jpg 640w, assets/img/foto/25-cancello-di-ingresso.jpg 1024w" sizes="50vw" alt="Cancello di ingresso" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/26-parcheggio-privato-nel-cortile.jpg" data-caption="Parcheggio privato nel cortile"><img src="assets/img/foto/thumb/26-parcheggio-privato-nel-cortile.jpg" srcset="assets/img/foto/thumb/26-parcheggio-privato-nel-cortile.jpg 640w, assets/img/foto/26-parcheggio-privato-nel-cortile.jpg 1024w" sizes="50vw" alt="Parcheggio privato nel cortile" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/27-la-spiaggia.jpg" data-caption="La spiaggia"><img src="assets/img/foto/thumb/27-la-spiaggia.jpg" srcset="assets/img/foto/thumb/27-la-spiaggia.jpg 640w, assets/img/foto/27-la-spiaggia.jpg 1024w" sizes="50vw" alt="La spiaggia" loading="lazy"></a></li>
+        <li><a href="assets/img/foto/28-un-cuore-sul-mare.jpg" data-caption="Un cuore sul mare"><img src="assets/img/foto/thumb/28-un-cuore-sul-mare.jpg" srcset="assets/img/foto/thumb/28-un-cuore-sul-mare.jpg 640w, assets/img/foto/28-un-cuore-sul-mare.jpg 1024w" sizes="50vw" alt="Un cuore sul mare" loading="lazy"></a></li>
+        <!-- GALLERY:END -->
+      </ul>
       </div>
     </section>
 
-    <section class="step">
-      <div class="step-header">
-        <div class="step-number">2</div>
-        <h2 class="step-title" data-i18n="step2_title">Apertura del Cancelletto Pedonale</h2>
+    <section class="section section-tinted" aria-labelledby="casa-title">
+      <h2 id="casa-title">Benvenuti</h2>
+      <div class="intro">
+        <p>Siamo <strong>Lucia e Marco</strong> e saremo felici di ospitarvi alla <strong>Casa dei Due Mari</strong>,
+          un appartamento luminoso al terzo piano a <strong>San Vito, Taranto</strong>, a pochi passi dal mare.
+          Curiamo ogni piccolo dettaglio per rendere il vostro soggiorno il più piacevole possibile.</p>
+        <p>L'arrivo è semplice e in autonomia: dopo la prenotazione vi mandiamo tutte le istruzioni per entrare.</p>
       </div>
-      <div class="step-body">
-        <p data-i18n="step2_p_html">Accanto al citofono troverete un tastierino. Digitate il <span class='code-badge'>PRIMO CODICE + *</span> (asterisco) per aprire il <strong>cancelletto pedonale</strong>.</p>
-        <figure class="photo-block">
-          <img src="img/gate-keypad.jpg" alt="Tastierino al cancello pedonale" data-i18n-alt="alt_gate_keypad"
-            loading="lazy" onerror="this.parentElement.style.display='none'">
-          <figcaption data-i18n="cap_gate_keypad">Tastierino al cancello principale — Via Suri 3</figcaption>
-        </figure>
-      </div>
+      <ul class="facts">
+        <li><span class="facts-icon" aria-hidden="true">🏠</span><span>Terzo piano con ascensore</span></li>
+        <li><span class="facts-icon" aria-hidden="true">🛏️</span><span>Camera matrimoniale e camera con due letti</span></li>
+        <li><span class="facts-icon" aria-hidden="true">🛁</span><span>Due bagni, con vasca e con doccia</span></li>
+        <li><span class="facts-icon" aria-hidden="true">☀️</span><span>Balcone con tavolo e vista sul verde</span></li>
+        <li><span class="facts-icon" aria-hidden="true">🅿️</span><span>Posto auto privato nel cortile</span></li>
+        <li><span class="facts-icon" aria-hidden="true">🔑</span><span>Self check-in con codici</span></li>
+      </ul>
     </section>
 
-    <section class="step">
-      <div class="step-header">
-        <div class="step-number">3</div>
-        <h2 class="step-title" data-i18n="step3_title">Ingresso in Condominio</h2>
+    <section class="section" id="zona" aria-labelledby="zona-title">
+      <h2 id="zona-title">La zona</h2>
+      <p class="section-lead">San Vito, il quartiere sul mare di Taranto</p>
+      <div class="intro">
+        <p>La Casa dei Due Mari si trova a <strong>San Vito</strong>, una zona residenziale tranquilla e verde
+          affacciata sul mare, a sud del centro di Taranto: il posto giusto per rilassarsi senza rinunciare alla città.</p>
       </div>
-      <div class="step-body">
-        <p data-i18n="step3_p_html">Usate di nuovo il <span class='code-badge'>PRIMO CODICE + *</span> (asterisco) sul tastierino della porta d'ingresso del condominio per entrare nell'edificio.</p>
-        <figure class="photo-block">
-          <img src="img/building-door.jpg" alt="Porta d'ingresso del condominio" data-i18n-alt="alt_building_door"
-            loading="lazy" onerror="this.parentElement.style.display='none'">
-          <figcaption data-i18n="cap_building_door">Porta d'ingresso condominio</figcaption>
-        </figure>
-      </div>
+      <ul class="places">
+        <li>
+          <span class="places-icon" aria-hidden="true">🏖️</span>
+          <h3>Il mare</h3>
+          <p>Le spiagge e il lungomare di San Vito sono vicini: perfetti per un bagno d'estate
+            o per una passeggiata al tramonto in ogni stagione.</p>
+        </li>
+        <li>
+          <span class="places-icon" aria-hidden="true">🌊</span>
+          <h3>Taranto, la città dei due mari</h3>
+          <p>In pochi minuti d'auto siete in centro: la Città Vecchia, il Ponte Girevole tra Mar Grande
+            e Mar Piccolo e il Museo Archeologico MArTA.</p>
+        </li>
+        <li>
+          <span class="places-icon" aria-hidden="true">🌴</span>
+          <h3>Tranquillità e verde</h3>
+          <p>Una zona residenziale fatta di palme e pini, lontana dal traffico:
+            dal balcone si vedono gli alberi e il cielo.</p>
+        </li>
+        <li>
+          <span class="places-icon" aria-hidden="true">🚗</span>
+          <h3>Comodo con l'auto</h3>
+          <p>Il posto auto privato nel cortile recintato vi lascia liberi di girare la Puglia:
+            spiagge, masserie e borghi sono a portata di gita.</p>
+        </li>
+      </ul>
     </section>
 
-    <section class="step">
-      <div class="step-header">
-        <div class="step-number">4</div>
-        <h2 class="step-title" data-i18n="step4_title">Ritiro delle Chiavi</h2>
+    <section class="section section-tinted" id="dove" aria-labelledby="dove-title">
+      <h2 id="dove-title">Dove siamo</h2>
+      <p class="section-lead">Via Suri 3, San Vito, Taranto</p>
+      <div class="map">
+        <iframe title="Mappa: La Casa dei Due Mari, Via Suri 3, San Vito, Taranto"
+          src="https://www.google.com/maps?q=Via+Suri+3+San+Vito+Taranto&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="step-body">
-        <p data-i18n="step4_p1_html">Prendete l'ascensore (o le scale) fino al <strong>terzo piano</strong>. Il nostro appartamento è sul <strong>lato destro</strong> uscendo dall'ascensore.</p>
-        <p data-i18n="step4_p2_html">Davanti alla porta troverete una <strong>piccola cassetta di sicurezza</strong> per le chiavi. Abbassate il coperchio nero, quindi digitate il <span class='code-badge'>SECONDO CODICE + #</span> (cancelletto) per aprirla e ritirare le chiavi.</p>
-        <figure class="photo-block">
-          <img src="img/key-safe.jpg" alt="Cassetta chiavi fuori dall'appartamento" data-i18n-alt="alt_key_safe"
-            loading="lazy" onerror="this.parentElement.style.display='none'">
-          <figcaption data-i18n="cap_key_safe">Cassetta chiavi — terzo piano, destra dell'ascensore</figcaption>
-        </figure>
-      </div>
+      <p class="center"><a href="https://www.google.com/maps/search/?api=1&query=Via+Suri+3+San+Vito+Taranto" target="_blank" rel="noopener">Apri in Google Maps</a></p>
     </section>
 
-    <div class="callout callout-info">
-      <div class="icon">🗑️</div>
-      <div class="text" data-i18n="warn_litter_html"><strong>Se non potete rispettare i giorni della raccolta differenziata, lasciate pure la spazzatura sul balcone, ce ne occuperemo noi.</strong></div>
-    </div>
-
-    <div class="contact-box">
-      <h3 data-i18n="contact_title">Avete bisogno di aiuto?</h3>
-      <p data-i18n="contact_p_html">Siamo sempre disponibili. Contattateci via WhatsApp.</p>
-      <p class="contact-footer" data-i18n="contact_footer">Vi auguriamo un soggiorno meraviglioso. Grazie per aver scelto noi!</p>
-    </div>
+    <section class="section cta" aria-labelledby="cta-title">
+      <h2 id="cta-title">Vi aspettiamo</h2>
+      <p>Per disponibilità e prenotazioni scriveteci su WhatsApp o chiamateci.</p>
+      <div class="hero-actions">
+        <a class="btn btn-wa" href="https://wa.me/393471776671" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3c-.2.3-1 1-1 2.3s1 2.7 1.2 2.9c.1.2 2 3 4.8 4.2 1.8.8 2.5.8 3.4.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg>Scrivici su WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+393471776671"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>Chiama 347 177 6671</a>
+      </div>
+    </section>
 
   </main>
 
-  <script src="script/config.js"></script>
-  <script src="script/i18n.js"></script>
+  <footer class="footer">
+    <p>La Casa dei Due Mari · Via Suri 3, San Vito, Taranto · CIN IT073027C200074352</p>
+  </footer>
+
+  <!-- Lightbox: aperto da assets/js/gallery.js -->
+  <div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Galleria foto">
+    <button class="lb-btn lb-close" type="button" aria-label="Chiudi">✕</button>
+    <button class="lb-btn lb-prev" type="button" aria-label="Foto precedente">‹</button>
+    <figure class="lb-figure">
+      <img class="lb-img" alt="">
+      <figcaption class="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" type="button" aria-label="Foto successiva">›</button>
+    <div class="lb-counter" aria-live="polite"></div>
+  </div>
+
+  <script src="assets/js/gallery.js"></script>
 </body>
 
 </html>

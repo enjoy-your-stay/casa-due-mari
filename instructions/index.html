@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b5f8f">
+  <!-- Pagina riservata agli ospiti: non deve comparire su Google -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <title>La Casa dei Due Mari – Check-in</title>
+  <link rel="icon" href="../favicon.ico" sizes="48x48">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--
+    PAGINA UNICA per tutte le lingue.
+    Il testo qui sotto è il fallback italiano: script/i18n.js lo sostituisce con la
+    lingua scelta caricando i18n/<lang>.json. Gli elementi con testo tradotto sono
+    marcati con data-i18n="chiave" (contenuto) o data-i18n-alt="chiave" (attributo alt).
+    Non modificare i testi qui: modificarli in i18n/it.json (e nelle altre lingue).
+  -->
+
+  <div class="lang-select-wrap">
+    <select class="lang-select" aria-label="Lingua / Language">
+      <option value="it">🇮🇹 Italiano</option>
+    </select>
+  </div>
+
+  <header>
+    <img class="logo" src="img/logo.jpg" alt="La Casa dei Due Mari" width="680" height="745">
+    <div class="header-subtitle" data-i18n="header_subtitle">Check-in senza contatto</div>
+  </header>
+
+  <main hidden>
+
+    <p class="welcome" data-i18n="welcome_html">Benvenuti alla <strong>Casa dei Due Mari</strong>! Siamo <strong>Lucia e Marco</strong>, i vostri ospiti, e siamo felici di avervi qui. Curiamo ogni piccolo dettaglio per rendere il vostro soggiorno il più piacevole possibile — speriamo che l'appartamento superi le vostre aspettative.<br><br>Qui sotto trovate tutto ciò che vi serve per accedere all'appartamento. Avrete bisogno di <strong>due codici</strong>, che vi invieremo dopo aver ricevuto le foto dei passaporti di tutti gli ospiti via WhatsApp.</p>
+
+    <section class="step">
+      <div class="step-header">
+        <div class="step-number">1</div>
+        <h2 class="step-title" data-i18n="step1_title">Arrivo e Parcheggio</h2>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step1_p1_html">Siamo in <strong>Via Suri 3, San Vito, Taranto</strong> — <a href='https://maps.google.com/?q=Via+Suri+3+San+Vito+Taranto' target='_blank'>apri in Google Maps</a>.</p>
+        <p data-i18n="step1_p2_html">All'arrivo potete <strong>parcheggiare fuori dal cancello principale</strong>. Se preferite parcheggiare all'interno, usate il cancello contrassegnato come <strong>ENTRATA</strong> (vedi foto). Il telecomando nell'appartamento apre entrambi i cancelli: il <strong>tasto in basso a sinistra</strong> per entrare, il <strong>tasto in alto a sinistra</strong> per uscire.</p>
+        <div class="callout">
+          <div class="icon">🅿️</div>
+          <div class="text" data-i18n="warn_parking_html"><strong>Il vostro posto auto è il numero 8 — e solo il numero 8.</strong> Il numero è segnato sul muro nella stradina sul retro dell'edificio. Vi preghiamo di non usare nessun altro posto, poiché appartengono agli altri residenti.</div>
+        </div>
+        <figure class="photo-block">
+          <img src="img/parking-entrance.jpg" alt="Cancello entrata e uscita" data-i18n-alt="alt_parking_entrance"
+            loading="lazy" onerror="this.parentElement.style.display='none'">
+          <figcaption data-i18n="cap_parking_entrance">Cancelli ENTRATA / USCITA</figcaption>
+        </figure>
+        <figure class="photo-block">
+          <img src="img/parking-spot.jpg" alt="Posto auto numero 8" data-i18n-alt="alt_parking_spot" loading="lazy"
+            onerror="this.parentElement.style.display='none'">
+          <figcaption data-i18n="cap_parking_spot">Posto auto № 8</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="step-header">
+        <div class="step-number">2</div>
+        <h2 class="step-title" data-i18n="step2_title">Apertura del Cancelletto Pedonale</h2>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step2_p_html">Accanto al citofono troverete un tastierino. Digitate il <span class='code-badge'>PRIMO CODICE + *</span> (asterisco) per aprire il <strong>cancelletto pedonale</strong>.</p>
+        <figure class="photo-block">
+          <img src="img/gate-keypad.jpg" alt="Tastierino al cancello pedonale" data-i18n-alt="alt_gate_keypad"
+            loading="lazy" onerror="this.parentElement.style.display='none'">
+          <figcaption data-i18n="cap_gate_keypad">Tastierino al cancello principale — Via Suri 3</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="step-header">
+        <div class="step-number">3</div>
+        <h2 class="step-title" data-i18n="step3_title">Ingresso in Condominio</h2>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step3_p_html">Usate di nuovo il <span class='code-badge'>PRIMO CODICE + *</span> (asterisco) sul tastierino della porta d'ingresso del condominio per entrare nell'edificio.</p>
+        <figure class="photo-block">
+          <img src="img/building-door.jpg" alt="Porta d'ingresso del condominio" data-i18n-alt="alt_building_door"
+            loading="lazy" onerror="this.parentElement.style.display='none'">
+          <figcaption data-i18n="cap_building_door">Porta d'ingresso condominio</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="step-header">
+        <div class="step-number">4</div>
+        <h2 class="step-title" data-i18n="step4_title">Ritiro delle Chiavi</h2>
+      </div>
+      <div class="step-body">
+        <p data-i18n="step4_p1_html">Prendete l'ascensore (o le scale) fino al <strong>terzo piano</strong>. Il nostro appartamento è sul <strong>lato destro</strong> uscendo dall'ascensore.</p>
+        <p data-i18n="step4_p2_html">Davanti alla porta troverete una <strong>piccola cassetta di sicurezza</strong> per le chiavi. Abbassate il coperchio nero, quindi digitate il <span class='code-badge'>SECONDO CODICE + #</span> (cancelletto) per aprirla e ritirare le chiavi.</p>
+        <figure class="photo-block">
+          <img src="img/key-safe.jpg" alt="Cassetta chiavi fuori dall'appartamento" data-i18n-alt="alt_key_safe"
+            loading="lazy" onerror="this.parentElement.style.display='none'">
+          <figcaption data-i18n="cap_key_safe">Cassetta chiavi — terzo piano, destra dell'ascensore</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="callout callout-info">
+      <div class="icon">🗑️</div>
+      <div class="text" data-i18n="warn_litter_html"><strong>Se non potete rispettare i giorni della raccolta differenziata, lasciate pure la spazzatura sul balcone, ce ne occuperemo noi.</strong></div>
+    </div>
+
+    <div class="contact-box">
+      <h3 data-i18n="contact_title">Avete bisogno di aiuto?</h3>
+      <p data-i18n="contact_p_html">Siamo sempre disponibili. Contattateci via WhatsApp.</p>
+      <p class="contact-footer" data-i18n="contact_footer">Vi auguriamo un soggiorno meraviglioso. Grazie per aver scelto noi!</p>
+    </div>
+
+  </main>
+
+  <script src="script/config.js"></script>
+  <script src="script/i18n.js"></script>
+</body>
+
+</html>

@@ -1,12 +1,16 @@
 ---
 name: checkin-review
-description: Controlla che la guida di check-in multilingua sia allineata prima di un commit. Da invocare quando si è modificato index.html, script/i18n.js, script/config.js o un file i18n/<lang>.json, o prima di committare. Verifica parità di chiavi tra i file i18n, JSON valido, corrispondenza tra data-i18n nell'HTML e chiavi tradotte, token condivisi non hard-coded, traduzioni mancanti, immagini referenziate presenti.
+description: Controlla che la guida di check-in multilingua sia allineata prima di un commit. Da invocare quando si è modificato instructions/index.html, instructions/script/i18n.js, instructions/script/config.js o un file instructions/i18n/<lang>.json, o prima di committare. Verifica parità di chiavi tra i file i18n, JSON valido, corrispondenza tra data-i18n nell'HTML e chiavi tradotte, token condivisi non hard-coded, traduzioni mancanti, immagini referenziate presenti.
 tools: Read, Grep, Glob, Bash
 model: sonnet
 ---
 
-Sei un revisore per il sito statico di check-in "La Casa dei Due Mari". Il sito è
-**una pagina unica per tutte le lingue** (`index.html`): la struttura e le classi CSS
+Sei un revisore per il sito statico di check-in "La Casa dei Due Mari".
+**La guida di check-in vive nella cartella `instructions/`** (la root del repo ospita la
+vetrina pubblica, che non è tradotta e non rientra in questa revisione): tutti i percorsi
+qui sotto sono relativi a `instructions/`, quindi esegui i comandi con `cd instructions`.
+
+La guida è **una pagina unica per tutte le lingue** (`index.html`): la struttura e le classi CSS
 stanno lì una sola volta, gli elementi traducibili sono marcati con `data-i18n="chiave"`
 (contenuto, iniettato come HTML) o `data-i18n-alt="chiave"` (attributo `alt`). Il testo
 italiano inline in `index.html` è solo il fallback se JS o il fetch falliscono.
@@ -24,7 +28,7 @@ Lavori in un context nuovo e isolato: non hai visto la conversazione che ti ha
 invocato e non devi assumere nulla da essa. Ricostruisci da solo il contesto prima
 di revisionare:
 
-1. Leggi `CLAUDE.md` nella root del repo.
+1. Se esiste, leggi `CLAUDE.md` nella root del repo.
 2. Leggi per intero `index.html`, `script/i18n.js`, `script/config.js`.
 3. Leggi `i18n/languages.json`, poi `i18n/it.json` (riferimento) e tutti gli altri
    `i18n/<lang>.json` (usa `Glob` su `i18n/*.json` per elencarli).
